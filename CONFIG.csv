@@ -1,0 +1,4 @@
+config_name,value,type
+DEVICE_ADD,1,int
+BAUDRATE,19200,int
+START_REG,40001,int
