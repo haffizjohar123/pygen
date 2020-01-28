@@ -45,10 +45,10 @@ def get_csv_value(csv_file,target_header_name,target_value_name,target_name):
 	value=int(csv_file[target_value_name][index_int])
 	return value
 
-def get_modbus_data(usb_port,baudrate,para_reg,device_address):
+def get_modbus_data(usb_port,baudrate,para_reg,para_dec,device_address,function_code):
 	device=modbus.Instrument(usb_port,device_address)
 	device.close_port_after_each_call = True
-	data=device.read_register(para_reg,device_address)
+	data=device.read_register(para_reg,para_dec,function_code,False)
 	return data	
 
 
@@ -79,6 +79,7 @@ for i in range (0,paralist_num):
 	para_name=paralist_file['para_name'][i]
 	para_address=get_csv_value(paralist_file,'para_name','register_address',para_name)
 	unit=paralist_file['dimension'][i]
-	modbus_value=get_modbus_data(usb_port,baudrate,para_address-start_reg,device_address)
+	para_decimal =int( paralist_file['decimal'][i])
+	modbus_value=get_modbus_data(usb_port,baudrate,para_address-start_reg,para_decimal,device_address,3)
 	print(para_name + ':' + str(para_address)+'-----> ' + str(modbus_value)+' ' + unit)
 	sleep(0.2)
