@@ -4,9 +4,9 @@ import os.path
 from  serial.tools.list_ports import comports
 from time import sleep
 import logging
-
-
-
+import csv
+import time
+from datetime import date
 
 def check_log_file(filename):
     try:
@@ -66,45 +66,53 @@ def get_modbus_data(usb_port,baudrate,para_reg,para_dec,device_address,function_
     data=device.read_register(para_reg,para_dec,function_code,False)
     return data 
 
+def main():
+    config_file_path=get_config_file_path()
+    paralist_file_path=get_paralist_file_path()
+    config_file=get_config_file(config_file_path)
+    paralist_file=get_paralist_file(paralist_file_path)
+    usb_port=get_comport_dev()
 
-config_file_path=get_config_file_path()
-paralist_file_path=get_paralist_file_path()
-config_file=get_config_file(config_file_path)
-paralist_file=get_paralist_file(paralist_file_path)
-usb_port=get_comport_dev()
+    print('CONFIG PATH:'+config_file_path)
+    print('PARALIST PATH:'+paralist_file_path)
+    print(config_file)
+    print(paralist_file)
+    print('\nUSB DEV:'+usb_port)
+    baudrate=get_baudrate(config_file)
+    start_reg=get_csv_value(config_file,'config_name','value','START_REG')
+    device_address=get_csv_value(config_file,'config_name','value','DEVICE_ADD')
+    print('BAUDRATE:'+str(baudrate))
+    print('START_REGISTER:' + str(start_reg))
+    paralist_num=int(len(paralist_file))
+    check_log_file('history.log')
+    logging.basicConfig(filename='history.log',format='%(asctime)s,%(message)s', datefmt='%m/%d/%Y,%H:%M:%S',level=logging.INFO)
+    logging.info('PYGEN_READ,1,BIN')
+    recent_file=open('RECENT_DATA.csv','w')
+    recent_writer=csv.writer(recent_file,delimiter=',',quotechar='',quoting=csv.QUOTE_NONE)
+    recent_writer.writerow(['DATE','TIME','PARA_NAME','VALUE','DIMENSION'])
+    today_date=date.today()
+    dt=today_date.strftime('%m/%d/%Y')    
+    
+    
+    
+    for i in range (0,paralist_num):
+        t=time.localtime()
+        read_time=time.strftime('%H:%M:%S',t)
 
-print('CONFIG PATH:'+config_file_path)
-print('PARALIST PATH:'+paralist_file_path)
-print(config_file)
-print(paralist_file)
-print('USB DEV:'+usb_port)
+        para_name=paralist_file['para_name'][i]
+        para_address=get_csv_value(paralist_file,'para_name','register_address',para_name)
+        unit=paralist_file['dimension'][i]
+        para_decimal =int( paralist_file['decimal'][i])
+        modbus_value=get_modbus_data(usb_port,baudrate,para_address-start_reg,para_decimal,device_address,3)
+        print(para_name + ':' + str(para_address)+'-----> ' + str(modbus_value)+' ' + unit)
+        logging.info(para_name+','+str(modbus_value)+',' + unit)
+        recent_writer.writerow([dt,read_time,para_name,modbus_value,unit])
+        sleep(0.1)
+        
+    logging.info('PYGEN_READ,0,BIN')
+    recent_file.close()
+   
 
+if __name__=='__main__':
+    main()
 
-
-baudrate=get_baudrate(config_file)
-
-start_reg=get_csv_value(config_file,'config_name','value','START_REG')
-device_address=get_csv_value(config_file,'config_name','value','DEVICE_ADD')
-print('BAUDRATE:'+str(baudrate))
-print('START_REGISTER:' + str(start_reg))
-
-paralist_num=len(paralist_file)
-
-
-check_log_file('history.log')
-logging.basicConfig(filename='history.log',format='%(asctime)s,%(message)s', datefmt='%m/%d/%Y,%H:%M:%S',level=logging.INFO)
-
-
-
-logging.info('PYGEN_READ,1,BIN')
-for i in range (0,paralist_num):
-    para_name=paralist_file['para_name'][i]
-    para_address=get_csv_value(paralist_file,'para_name','register_address',para_name)
-    unit=paralist_file['dimension'][i]
-    para_decimal =int( paralist_file['decimal'][i])
-    modbus_value=get_modbus_data(usb_port,baudrate,para_address-start_reg,para_decimal,device_address,3)
-    print(para_name + ':' + str(para_address)+'-----> ' + str(modbus_value)+' ' + unit)
-    logging.info(para_name+','+str(modbus_value)+',' + unit)
-    sleep(0.2)
-
-logging.info('PYGEN_READ,0,BIN')
