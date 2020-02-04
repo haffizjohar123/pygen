@@ -695,3 +695,537 @@ Date,Time,Para_name,Value,Dimension
 01/29/2020,13:09:45,ENG_TEMP,32768,DEG CELCIUS
 01/29/2020,13:09:45,FUEL_LEVEL,32768,%
 01/29/2020,13:09:45,PYGEN_READ,0,BIN
+01/30/2020,08:32:23,PYGEN_READ,1,BIN
+01/30/2020,08:32:23,GEN_V_L1-N,0,V
+01/30/2020,08:32:23,GEN_V_L2-N,0,V
+01/30/2020,08:32:24,GEN_V_L3-N,0,V
+01/30/2020,08:32:24,GEN_V_L1-L2,0,V
+01/30/2020,08:32:24,GEN_V_L2-L3,0,V
+01/30/2020,08:32:24,GEN_V_L3-L1,0,V
+01/30/2020,08:32:25,GEN_I_L1,0,A
+01/30/2020,08:32:25,GEN_I_L2,0,A
+01/30/2020,08:32:25,GEN_I_L3,0,A
+01/30/2020,08:32:26,GEN_RPM,0,RPM
+01/30/2020,08:32:26,GEN_FREQ,0.0,Hz
+01/30/2020,08:32:26,GEN_kW,0,kW
+01/30/2020,08:32:26,GEN_kW_L1,0,kW
+01/30/2020,08:32:27,GEN_kW_L2,0,kW
+01/30/2020,08:32:27,GEN_kW_L3,0,kW
+01/30/2020,08:32:27,GEN_NOM_kVA,800,kVA
+01/30/2020,08:32:27,GEN_kVAr,0,kVAr
+01/30/2020,08:32:28,GEN_KVAr_L1,0,kVAr
+01/30/2020,08:32:28,GEN_kVAr_L2,0,kVAr
+01/30/2020,08:32:28,GEN_kVAr_L3,0,kVAr
+01/30/2020,08:32:28,GEN_PF,0.0,UNIT
+01/30/2020,08:32:29,GEN_PF_L1,0.0,UNIT
+01/30/2020,08:32:29,GEN_PF_L2,0.0,UNIT
+01/30/2020,08:32:29,GEN_PF_L3,0.0,UNIT
+01/30/2020,08:32:30,GEN_kVA,0,kVA
+01/30/2020,08:32:30,GEN_kVA_L1,0,kVA
+01/30/2020,08:32:30,GEN_kVA_L2,0,kVA
+01/30/2020,08:32:30,GEN_kVA_L3,0,kVA
+01/30/2020,08:32:31,GEN_E_FAULT,655.35,A
+01/30/2020,08:32:31,BAT_VOLT,21.4,V
+01/30/2020,08:32:31,CHR_VOLT,21.3,V
+01/30/2020,08:32:31,OIL_PRESS,3276.8,BAR
+01/30/2020,08:32:32,ENG_TEMP,32768,DEG CELCIUS
+01/30/2020,08:32:32,FUEL_LEVEL,32768,%
+01/30/2020,08:32:32,PYGEN_READ,0,BIN
+01/30/2020,08:53:40,PYGEN_READ,1,BIN
+01/30/2020,08:53:40,GEN_V_L1-N,0,V
+01/30/2020,08:53:41,GEN_V_L2-N,0,V
+01/30/2020,08:53:41,GEN_V_L3-N,0,V
+01/30/2020,08:53:41,GEN_V_L1-L2,0,V
+01/30/2020,08:53:42,GEN_V_L2-L3,0,V
+01/30/2020,08:53:42,GEN_V_L3-L1,0,V
+01/30/2020,08:53:42,GEN_I_L1,0,A
+01/30/2020,08:53:42,GEN_I_L2,0,A
+01/30/2020,08:53:43,GEN_I_L3,0,A
+01/30/2020,08:53:43,GEN_RPM,0,RPM
+01/30/2020,08:53:43,GEN_FREQ,0.0,Hz
+01/30/2020,08:53:43,GEN_kW,0,kW
+01/30/2020,08:53:44,GEN_kW_L1,0,kW
+01/30/2020,08:53:44,GEN_kW_L2,0,kW
+01/30/2020,08:53:44,GEN_kW_L3,0,kW
+01/30/2020,08:53:44,GEN_NOM_kVA,800,kVA
+01/30/2020,08:53:45,GEN_kVAr,0,kVAr
+01/30/2020,08:53:45,GEN_KVAr_L1,0,kVAr
+01/30/2020,08:53:45,GEN_kVAr_L2,0,kVAr
+01/30/2020,08:53:46,GEN_kVAr_L3,0,kVAr
+01/30/2020,08:53:46,GEN_PF,0.0,UNIT
+01/30/2020,08:53:46,GEN_PF_L1,0.0,UNIT
+01/30/2020,08:53:46,GEN_PF_L2,0.0,UNIT
+01/30/2020,08:53:47,GEN_PF_L3,0.0,UNIT
+01/30/2020,08:53:47,GEN_kVA,0,kVA
+01/30/2020,08:53:47,GEN_kVA_L1,0,kVA
+01/30/2020,08:53:47,GEN_kVA_L2,0,kVA
+01/30/2020,08:53:48,GEN_kVA_L3,0,kVA
+01/30/2020,08:53:48,GEN_E_FAULT,655.35,A
+01/30/2020,08:53:48,BAT_VOLT,21.4,V
+01/30/2020,08:53:48,CHR_VOLT,21.3,V
+01/30/2020,08:53:49,OIL_PRESS,3276.8,BAR
+01/30/2020,08:53:49,ENG_TEMP,32768,DEG CELCIUS
+01/30/2020,08:53:49,FUEL_LEVEL,32768,%
+01/30/2020,08:53:49,PYGEN_READ,0,BIN
+01/30/2020,09:46:26,PYGEN_READ,1,BIN
+01/30/2020,09:46:26,GEN_V_L1-N,0,V
+01/30/2020,09:46:27,GEN_V_L2-N,0,V
+01/30/2020,09:46:27,GEN_V_L3-N,0,V
+01/30/2020,09:46:27,GEN_V_L1-L2,0,V
+01/30/2020,09:46:27,GEN_V_L2-L3,0,V
+01/30/2020,09:46:28,GEN_V_L3-L1,0,V
+01/30/2020,09:46:28,GEN_I_L1,0,A
+01/30/2020,09:46:28,GEN_I_L2,0,A
+01/30/2020,09:46:28,GEN_I_L3,0,A
+01/30/2020,09:46:29,GEN_RPM,0,RPM
+01/30/2020,09:46:29,GEN_FREQ,0.0,Hz
+01/30/2020,09:46:29,GEN_kW,0,kW
+01/30/2020,09:46:30,GEN_kW_L1,0,kW
+01/30/2020,09:46:30,GEN_kW_L2,0,kW
+01/30/2020,09:46:30,GEN_kW_L3,0,kW
+01/30/2020,09:46:30,GEN_NOM_kVA,800,kVA
+01/30/2020,09:46:31,GEN_kVAr,0,kVAr
+01/30/2020,09:46:31,GEN_KVAr_L1,0,kVAr
+01/30/2020,09:46:31,GEN_kVAr_L2,0,kVAr
+01/30/2020,09:46:31,GEN_kVAr_L3,0,kVAr
+01/30/2020,09:46:32,GEN_PF,0.0,UNIT
+01/30/2020,09:46:32,GEN_PF_L1,0.0,UNIT
+01/30/2020,09:46:32,GEN_PF_L2,0.0,UNIT
+01/30/2020,09:46:32,GEN_PF_L3,0.0,UNIT
+01/30/2020,09:46:33,GEN_kVA,0,kVA
+01/30/2020,09:46:33,GEN_kVA_L1,0,kVA
+01/30/2020,09:46:33,GEN_kVA_L2,0,kVA
+01/30/2020,09:46:34,GEN_kVA_L3,0,kVA
+01/30/2020,09:46:34,GEN_E_FAULT,655.35,A
+01/30/2020,09:46:34,BAT_VOLT,21.4,V
+01/30/2020,09:46:34,CHR_VOLT,21.3,V
+01/30/2020,09:46:35,OIL_PRESS,3276.8,BAR
+01/30/2020,09:46:35,ENG_TEMP,32768,DEG CELCIUS
+01/30/2020,09:46:35,FUEL_LEVEL,32768,%
+01/30/2020,09:46:35,PYGEN_READ,0,BIN
+01/31/2020,11:59:38,PYGEN_READ,1,BIN
+01/31/2020,11:59:38,GEN_V_L1-N,0,V
+01/31/2020,12:00:26,PYGEN_READ,1,BIN
+01/31/2020,12:00:26,GEN_V_L1-N,0,V
+01/31/2020,12:00:26,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:00:29,GEN_V_L2-N,0,V
+01/31/2020,12:01:42,PYGEN_READ,1,BIN
+01/31/2020,12:01:42,GEN_V_L1-N,0,V
+01/31/2020,12:01:42,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:01:45,GEN_V_L2-N,0,V
+01/31/2020,12:01:45,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:01:48,GEN_V_L3-N,0,V
+01/31/2020,12:01:48,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:01:51,GEN_V_L1-L2,0,V
+01/31/2020,12:01:51,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:01:55,GEN_V_L2-L3,0,V
+01/31/2020,12:01:55,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:01:58,GEN_V_L3-L1,0,V
+01/31/2020,12:01:58,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:02,GEN_I_L1,0,A
+01/31/2020,12:02:02,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:05,GEN_I_L2,0,A
+01/31/2020,12:02:05,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:08,GEN_I_L3,0,A
+01/31/2020,12:02:08,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:11,GEN_RPM,0,RPM
+01/31/2020,12:02:11,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:14,GEN_FREQ,0.0,Hz
+01/31/2020,12:02:14,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:17,GEN_kW,0,kW
+01/31/2020,12:02:17,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:20,GEN_kW_L1,0,kW
+01/31/2020,12:02:20,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:23,GEN_kW_L2,0,kW
+01/31/2020,12:02:23,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:26,GEN_kW_L3,0,kW
+01/31/2020,12:02:26,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:29,GEN_NOM_kVA,800,kVA
+01/31/2020,12:02:29,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:32,GEN_kVAr,0,kVAr
+01/31/2020,12:02:32,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:35,GEN_KVAr_L1,0,kVAr
+01/31/2020,12:02:35,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:38,GEN_kVAr_L2,0,kVAr
+01/31/2020,12:02:38,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:41,GEN_kVAr_L3,0,kVAr
+01/31/2020,12:02:41,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:44,GEN_PF,0.0,UNIT
+01/31/2020,12:02:44,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:47,GEN_PF_L1,0.0,UNIT
+01/31/2020,12:02:47,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:51,GEN_PF_L2,0.0,UNIT
+01/31/2020,12:02:51,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:54,GEN_PF_L3,0.0,UNIT
+01/31/2020,12:02:54,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:02:57,GEN_kVA,0,kVA
+01/31/2020,12:02:57,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:03:05,GEN_kVA_L1,0,kVA
+01/31/2020,12:03:05,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:03:13,GEN_kVA_L2,0,kVA
+01/31/2020,12:03:13,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:03:16,GEN_kVA_L3,0,kVA
+01/31/2020,12:03:16,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:03:19,GEN_E_FAULT,655.35,A
+01/31/2020,12:03:19,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:03:22,BAT_VOLT,21.4,V
+01/31/2020,12:03:22,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:03:26,CHR_VOLT,21.3,V
+01/31/2020,12:03:26,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:03:29,OIL_PRESS,3276.8,BAR
+01/31/2020,12:03:29,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:03:32,ENG_TEMP,32768,DEG CELCIUS
+01/31/2020,12:03:32,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:03:35,FUEL_LEVEL,32768,%
+01/31/2020,12:03:35,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:03:38,PYGEN_READ,0,BIN
+01/31/2020,12:06:11,PYGEN_READ,1,BIN
+01/31/2020,12:06:12,GEN_V_L1-N,0,V
+01/31/2020,12:06:12,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:15,GEN_V_L2-N,0,V
+01/31/2020,12:06:15,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:18,GEN_V_L3-N,0,V
+01/31/2020,12:06:18,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:21,GEN_V_L1-L2,0,V
+01/31/2020,12:06:21,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:24,GEN_V_L2-L3,0,V
+01/31/2020,12:06:24,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:27,GEN_V_L3-L1,0,V
+01/31/2020,12:06:27,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:30,GEN_I_L1,0,A
+01/31/2020,12:06:30,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:33,GEN_I_L2,0,A
+01/31/2020,12:06:33,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:36,GEN_I_L3,0,A
+01/31/2020,12:06:36,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:39,GEN_RPM,0,RPM
+01/31/2020,12:06:39,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:42,GEN_FREQ,0.0,Hz
+01/31/2020,12:06:42,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:45,GEN_kW,0,kW
+01/31/2020,12:06:45,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:49,GEN_kW_L1,0,kW
+01/31/2020,12:06:49,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:52,GEN_kW_L2,0,kW
+01/31/2020,12:06:52,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:55,GEN_kW_L3,0,kW
+01/31/2020,12:06:55,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:06:58,GEN_NOM_kVA,800,kVA
+01/31/2020,12:06:58,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:01,GEN_kVAr,0,kVAr
+01/31/2020,12:07:01,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:04,GEN_KVAr_L1,0,kVAr
+01/31/2020,12:07:04,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:08,GEN_kVAr_L2,0,kVAr
+01/31/2020,12:07:08,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:11,GEN_kVAr_L3,0,kVAr
+01/31/2020,12:07:11,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:14,GEN_PF,0.0,UNIT
+01/31/2020,12:07:14,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:17,GEN_PF_L1,0.0,UNIT
+01/31/2020,12:07:17,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:20,GEN_PF_L2,0.0,UNIT
+01/31/2020,12:07:20,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:23,GEN_PF_L3,0.0,UNIT
+01/31/2020,12:07:23,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:26,GEN_kVA,0,kVA
+01/31/2020,12:07:26,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:29,GEN_kVA_L1,0,kVA
+01/31/2020,12:07:29,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:32,GEN_kVA_L2,0,kVA
+01/31/2020,12:07:32,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:35,GEN_kVA_L3,0,kVA
+01/31/2020,12:07:35,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:38,GEN_E_FAULT,655.35,A
+01/31/2020,12:07:38,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:42,BAT_VOLT,21.4,V
+01/31/2020,12:07:42,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:45,CHR_VOLT,21.3,V
+01/31/2020,12:07:45,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:48,OIL_PRESS,3276.8,BAR
+01/31/2020,12:07:48,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:51,ENG_TEMP,32768,DEG CELCIUS
+01/31/2020,12:07:51,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:54,FUEL_LEVEL,32768,%
+01/31/2020,12:07:54,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:07:57,PYGEN_READ,0,BIN
+01/31/2020,12:14:45,PYGEN_READ,1,BIN
+01/31/2020,12:14:45,GEN_V_L1-N,0,V
+01/31/2020,12:14:45,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:14:48,GEN_V_L2-N,0,V
+01/31/2020,12:14:48,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:14:51,GEN_V_L3-N,0,V
+01/31/2020,12:14:51,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:14:54,GEN_V_L1-L2,0,V
+01/31/2020,12:14:54,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:14:57,GEN_V_L2-L3,0,V
+01/31/2020,12:14:57,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:00,GEN_V_L3-L1,0,V
+01/31/2020,12:15:00,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:03,GEN_I_L1,0,A
+01/31/2020,12:15:03,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:06,GEN_I_L2,0,A
+01/31/2020,12:15:06,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:09,GEN_I_L3,0,A
+01/31/2020,12:15:09,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:12,GEN_RPM,0,RPM
+01/31/2020,12:15:13,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:16,GEN_FREQ,0.0,Hz
+01/31/2020,12:15:16,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:19,GEN_kW,0,kW
+01/31/2020,12:15:19,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:22,GEN_kW_L1,0,kW
+01/31/2020,12:15:22,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:25,GEN_kW_L2,0,kW
+01/31/2020,12:15:25,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:28,GEN_kW_L3,0,kW
+01/31/2020,12:15:28,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:31,GEN_NOM_kVA,800,kVA
+01/31/2020,12:15:31,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:34,GEN_kVAr,0,kVAr
+01/31/2020,12:15:34,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:37,GEN_KVAr_L1,0,kVAr
+01/31/2020,12:15:37,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:40,GEN_kVAr_L2,0,kVAr
+01/31/2020,12:15:40,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:48,GEN_kVAr_L3,0,kVAr
+01/31/2020,12:15:48,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:51,GEN_PF,0.0,UNIT
+01/31/2020,12:15:51,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:54,GEN_PF_L1,0.0,UNIT
+01/31/2020,12:15:54,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:15:57,GEN_PF_L2,0.0,UNIT
+01/31/2020,12:15:57,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:16:05,GEN_PF_L3,0.0,UNIT
+01/31/2020,12:16:05,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:16:08,GEN_kVA,0,kVA
+01/31/2020,12:16:08,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:16:11,GEN_kVA_L1,0,kVA
+01/31/2020,12:16:11,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:16:15,GEN_kVA_L2,0,kVA
+01/31/2020,12:16:15,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:16:18,GEN_kVA_L3,0,kVA
+01/31/2020,12:16:18,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:16:21,GEN_E_FAULT,655.35,A
+01/31/2020,12:16:21,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:16:24,BAT_VOLT,21.4,V
+01/31/2020,12:16:24,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:16:27,CHR_VOLT,21.3,V
+01/31/2020,12:16:27,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:16:30,OIL_PRESS,3276.8,BAR
+01/31/2020,12:16:30,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:16:33,ENG_TEMP,32768,DEG CELCIUS
+01/31/2020,12:16:33,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:16:36,FUEL_LEVEL,32768,%
+01/31/2020,12:16:36,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,12:16:39,PYGEN_READ,0,BIN
+01/31/2020,14:45:33,PYGEN_READ,1,BIN
+01/31/2020,14:45:33,GEN_V_L1-N,0,V
+01/31/2020,14:45:34,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:45:37,GEN_V_L2-N,0,V
+01/31/2020,14:45:37,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:45:40,GEN_V_L3-N,0,V
+01/31/2020,14:45:40,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:45:43,GEN_V_L1-L2,0,V
+01/31/2020,14:45:43,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:45:46,GEN_V_L2-L3,0,V
+01/31/2020,14:45:46,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:45:49,GEN_V_L3-L1,0,V
+01/31/2020,14:45:49,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:45:52,GEN_I_L1,0,A
+01/31/2020,14:45:52,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:45:55,GEN_I_L2,0,A
+01/31/2020,14:45:55,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:45:58,GEN_I_L3,0,A
+01/31/2020,14:45:58,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:01,GEN_RPM,0,RPM
+01/31/2020,14:46:01,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:04,GEN_FREQ,0.0,Hz
+01/31/2020,14:46:04,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:07,GEN_kW,0,kW
+01/31/2020,14:46:07,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:10,GEN_kW_L1,0,kW
+01/31/2020,14:46:10,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:13,GEN_kW_L2,0,kW
+01/31/2020,14:46:13,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:16,GEN_kW_L3,0,kW
+01/31/2020,14:46:16,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:19,GEN_NOM_kVA,800,kVA
+01/31/2020,14:46:19,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:22,GEN_kVAr,0,kVAr
+01/31/2020,14:46:22,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:25,GEN_KVAr_L1,0,kVAr
+01/31/2020,14:46:25,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:29,GEN_kVAr_L2,0,kVAr
+01/31/2020,14:46:29,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:32,GEN_kVAr_L3,0,kVAr
+01/31/2020,14:46:32,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:35,GEN_PF,0.0,UNIT
+01/31/2020,14:46:35,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:38,GEN_PF_L1,0.0,UNIT
+01/31/2020,14:46:38,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:41,GEN_PF_L2,0.0,UNIT
+01/31/2020,14:46:41,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:44,GEN_PF_L3,0.0,UNIT
+01/31/2020,14:46:44,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:47,GEN_kVA,0,kVA
+01/31/2020,14:46:47,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:50,GEN_kVA_L1,0,kVA
+01/31/2020,14:46:50,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:53,GEN_kVA_L2,0,kVA
+01/31/2020,14:46:53,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:56,GEN_kVA_L3,0,kVA
+01/31/2020,14:46:56,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:46:59,GEN_E_FAULT,655.35,A
+01/31/2020,14:46:59,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:47:02,BAT_VOLT,21.4,V
+01/31/2020,14:47:02,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:47:05,CHR_VOLT,21.3,V
+01/31/2020,14:47:05,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:47:08,OIL_PRESS,3276.8,BAR
+01/31/2020,14:47:08,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:47:11,ENG_TEMP,32768,DEG CELCIUS
+01/31/2020,14:47:11,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:47:14,FUEL_LEVEL,32768,%
+01/31/2020,14:47:14,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,14:47:17,PYGEN_READ,0,BIN
+01/31/2020,16:55:08,PYGEN_READ,1,BIN
+01/31/2020,16:55:08,GEN_V_L1-N,0,V
+01/31/2020,16:55:08,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:55:11,GEN_V_L2-N,0,V
+01/31/2020,16:55:11,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:55:14,GEN_V_L3-N,0,V
+01/31/2020,16:55:14,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:55:17,GEN_V_L1-L2,0,V
+01/31/2020,16:55:17,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:55:20,GEN_V_L2-L3,0,V
+01/31/2020,16:55:20,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:55:24,GEN_V_L3-L1,0,V
+01/31/2020,16:55:24,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:55:27,GEN_I_L1,0,A
+01/31/2020,16:55:27,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:55:35,GEN_I_L2,0,A
+01/31/2020,16:55:35,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:55:42,GEN_I_L3,0,A
+01/31/2020,16:55:42,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:55:45,GEN_RPM,0,RPM
+01/31/2020,16:55:45,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:55:48,GEN_FREQ,0.0,Hz
+01/31/2020,16:55:48,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:55:51,GEN_kW,0,kW
+01/31/2020,16:55:51,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:55:54,GEN_kW_L1,0,kW
+01/31/2020,16:55:54,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:55:57,GEN_kW_L2,0,kW
+01/31/2020,16:55:57,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:00,GEN_kW_L3,0,kW
+01/31/2020,16:56:00,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:03,GEN_NOM_kVA,800,kVA
+01/31/2020,16:56:03,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:06,GEN_kVAr,0,kVAr
+01/31/2020,16:56:06,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:09,GEN_KVAr_L1,0,kVAr
+01/31/2020,16:56:09,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:13,GEN_kVAr_L2,0,kVAr
+01/31/2020,16:56:13,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:16,GEN_kVAr_L3,0,kVAr
+01/31/2020,16:56:16,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:19,GEN_PF,0.0,UNIT
+01/31/2020,16:56:19,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:22,GEN_PF_L1,0.0,UNIT
+01/31/2020,16:56:22,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:25,GEN_PF_L2,0.0,UNIT
+01/31/2020,16:56:25,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:28,GEN_PF_L3,0.0,UNIT
+01/31/2020,16:56:28,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:31,GEN_kVA,0,kVA
+01/31/2020,16:56:31,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:34,GEN_kVA_L1,0,kVA
+01/31/2020,16:56:34,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:37,GEN_kVA_L2,0,kVA
+01/31/2020,16:56:37,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:40,GEN_kVA_L3,0,kVA
+01/31/2020,16:56:40,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:43,GEN_E_FAULT,655.35,A
+01/31/2020,16:56:43,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:46,BAT_VOLT,21.4,V
+01/31/2020,16:56:46,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:49,CHR_VOLT,21.3,V
+01/31/2020,16:56:49,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:52,OIL_PRESS,3276.8,BAR
+01/31/2020,16:56:52,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:55,ENG_TEMP,32768,DEG CELCIUS
+01/31/2020,16:56:55,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:56:58,FUEL_LEVEL,32768,%
+01/31/2020,16:56:58,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+01/31/2020,16:57:01,PYGEN_READ,0,BIN
+02/03/2020,12:38:20,PYGEN_READ,1,BIN
+02/03/2020,12:38:20,GEN_V_L1-N,0,V
+02/03/2020,12:38:20,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:38:23,GEN_V_L2-N,0,V
+02/03/2020,12:38:23,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:38:26,GEN_V_L3-N,0,V
+02/03/2020,12:38:26,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:38:29,GEN_V_L1-L2,0,V
+02/03/2020,12:38:29,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:38:33,GEN_V_L2-L3,0,V
+02/03/2020,12:38:33,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:38:36,GEN_V_L3-L1,0,V
+02/03/2020,12:38:36,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:38:39,GEN_I_L1,0,A
+02/03/2020,12:38:39,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:38:42,GEN_I_L2,0,A
+02/03/2020,12:38:42,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:38:45,GEN_I_L3,0,A
+02/03/2020,12:38:45,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:38:48,GEN_RPM,0,RPM
+02/03/2020,12:38:48,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:38:51,GEN_FREQ,0.0,Hz
+02/03/2020,12:38:51,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:38:54,GEN_kW,0,kW
+02/03/2020,12:38:54,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:38:57,GEN_kW_L1,0,kW
+02/03/2020,12:38:57,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:00,GEN_kW_L2,0,kW
+02/03/2020,12:39:00,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:03,GEN_kW_L3,0,kW
+02/03/2020,12:39:03,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:06,GEN_NOM_kVA,800,kVA
+02/03/2020,12:39:06,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:11,GEN_kVAr,0,kVAr
+02/03/2020,12:39:11,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:14,GEN_KVAr_L1,0,kVAr
+02/03/2020,12:39:14,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:17,GEN_kVAr_L2,0,kVAr
+02/03/2020,12:39:17,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:20,GEN_kVAr_L3,0,kVAr
+02/03/2020,12:39:20,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:23,GEN_PF,0.0,UNIT
+02/03/2020,12:39:23,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:26,GEN_PF_L1,0.0,UNIT
+02/03/2020,12:39:26,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:29,GEN_PF_L2,0.0,UNIT
+02/03/2020,12:39:29,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:32,GEN_PF_L3,0.0,UNIT
+02/03/2020,12:39:32,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:35,GEN_kVA,0,kVA
+02/03/2020,12:39:35,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:38,GEN_kVA_L1,0,kVA
+02/03/2020,12:39:38,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:41,GEN_kVA_L2,0,kVA
+02/03/2020,12:39:41,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:44,GEN_kVA_L3,0,kVA
+02/03/2020,12:39:44,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:47,GEN_E_FAULT,655.35,A
+02/03/2020,12:39:47,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:50,BAT_VOLT,21.4,V
+02/03/2020,12:39:50,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:53,CHR_VOLT,21.3,V
+02/03/2020,12:39:53,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:56,OIL_PRESS,3276.8,BAR
+02/03/2020,12:39:56,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:39:59,ENG_TEMP,32768,DEG CELCIUS
+02/03/2020,12:39:59,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:40:02,FUEL_LEVEL,32768,%
+02/03/2020,12:40:02,Starting new HTTPS connection (1): pygen-d1deb.firebaseio.com
+02/03/2020,12:40:05,PYGEN_READ,0,BIN

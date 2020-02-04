@@ -7,6 +7,7 @@ import logging
 import csv
 import time
 from datetime import date
+from firebase import firebase
 
 def check_log_file(filename):
     try:
@@ -67,6 +68,9 @@ def get_modbus_data(usb_port,baudrate,para_reg,para_dec,device_address,function_
     return data 
 
 def main():
+    
+    from firebase import firebase
+    
     config_file_path=get_config_file_path()
     paralist_file_path=get_paralist_file_path()
     config_file=get_config_file(config_file_path)
@@ -91,9 +95,9 @@ def main():
     recent_writer=csv.writer(recent_file,delimiter=',',quotechar='',quoting=csv.QUOTE_NONE)
     recent_writer.writerow(['DATE','TIME','PARA_NAME','VALUE','DIMENSION'])
     today_date=date.today()
-    dt=today_date.strftime('%m/%d/%Y')    
+    dt=today_date.strftime('%Y-%m-%d')    
     
-    
+    firebase = firebase.FirebaseApplication('https://pygen-d1deb.firebaseio.com/',None)
     
     for i in range (0,paralist_num):
         t=time.localtime()
@@ -107,7 +111,14 @@ def main():
         print(para_name + ':' + str(para_address)+'-----> ' + str(modbus_value)+' ' + unit)
         logging.info(para_name+','+str(modbus_value)+',' + unit)
         recent_writer.writerow([dt,read_time,para_name,modbus_value,unit])
-        sleep(0.1)
+        firebase_para_name_data={'Value':modbus_value,
+                                 'Dimension':unit,
+                                 'LastUpdate':dt+' '+read_time}
+        
+        uploaded_para=firebase.put('/GENSET/PARAMETERS/',para_name,firebase_para_name_data)
+        print('UPLOADED_PARA:')
+        print(uploaded_para)
+        sleep(2)
         
     logging.info('PYGEN_READ,0,BIN')
     recent_file.close()

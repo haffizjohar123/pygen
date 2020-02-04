@@ -1,4 +1,5 @@
 config_name,value,type
+GEN_NAME,DGS_418,str
 DEVICE_ADD,1,int
 BAUDRATE,19200,int
 START_REG,40001,int
